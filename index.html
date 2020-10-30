@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  Code inside the head starts here.  -->
+
+<head>
+	<meta charset="UTF-8">
+	<title>School Website</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<!--	Code inside the head ends here    -->
+</head>
+
+<body>
+	<!--	Code inside the body starts here.   -->
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+		<br>
+		<img src="logo.png" width="500" height="60" class="d-inline-block align-top" alt="Logo" loading="lazy">
+		<a class="navbar-brand">K.D.M.A.International School</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+				<li class="nav-item">
+					<a class="nav-link" href="#campusLife">Campus Life</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">School Achievements</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Founder</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<section id="Home">
+		<div class="marquee_Div">
+			<marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+				Note*Feel free to ask any quaries about this School on info.kdmaindia.org.*
+			</marquee>
+		</div>
+		<div class="bg">
+			<img src="bg.jpg">
+		</div>
+	</section>
+	<br>
+	<div id="campusLife" class="container">
+		<div class="page-header">
+			<h2 class="text-capitalize">campus life</h2>
+		</div>
+		<div class="row">
+			<div class="travel_mainDiv">
+				<img id="club" src="club.jpg" class="img-responsive">
+				<h4 class="text-capitalize"><kbd>abdul kalam library</kbd></h4>
+				<hr>
+				<h5 class="text-success text-left text-capitalize">was established in 2004</h5>
+				<p class="text-muted text-left">KDMA library is a place where a toddler can hear his first story and senior student can carry out his/her higher studies. There is also an Audio – Visual section in the library. More than 1500 titles are in accession. This club has proven itself to be very helpful to all the students.</p>
+			</div>
+			<div class="travel_mainDiv">
+				<img id="club" src="synthetic-flooring-for-tennis-court-basketball-court-582.jpg" class="img-responsive">
+				<h4 class="text-capitalize"><kbd>basketball court</kbd></h4>
+				<hr>
+				<h5 class="text-success text-left text-capitalize">was established in 2004</h5>
+				<p class="text-muted text-left">Basket ball is a team sport which has immense popularity and played with the help of a ball that is shot into a basket positioned horizontally.
+
+					Our school has successfully inaugurated a new Basketball Court with glittering colours. Students come and enjoy playing Basketball in their games period.
+
+					A professional coach has been appointed to enhance their physical skills. It’s one of the center of attraction for the students.</p>
+			</div>
+			<div class="travel_mainDiv">
+				<img id="club" src="activities.jpg" class="img-responsive">
+				<h4 class="text-capitalize"><kbd>prefectorial board</kbd></h4>
+				<hr>
+				<h5 class="text-success text-left text-capitalize">was established in 2004</h5>
+				<p class="text-muted text-left">The School Captain, House Captains, vice captains and prefects from each house are chosen to look after their respective houses along with house masters to develop the spirit of competitions. There are Club Leaders, Club Supporters and Swachchta Monitors to look after the various clubs.</p>
+			</div>
+		</div>
+		<div class="page-header">
+			<h2 class="text-capitalize">school achievements</h2>
+		</div>
+		<div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+			Inter House Football Competition
+			<i class="fa fa-sort-desc"></i>
+		</div>
+		<div id="school_achievement1" class="collapse">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+				<img src="P1140068-01.jpg" class="img-responsive img-thumbnail">
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+				<h5 class="text-success text-left text-capitalize">won first prize in inter house football competition </h5>
+				<p>Inter House Football Competition held for Group-B students</p>
+			</div>
+		</div>
+	</div>
+	<!--	Code inside the body ends here   -->
+</body></html>
