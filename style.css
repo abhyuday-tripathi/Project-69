@@ -1,6 +1,7 @@
-html{
+html {
 	scroll-behavior: smooth;
 }
+
 .marquee_Div marquee {
 	margin-top: 0px;
 	color: black;
@@ -34,11 +35,11 @@ travel_mainDiv p {
 	margin-left: 20px;
 }
 
-#achievementsID{
+#achievementsID {
 	padding-bottom: 10px;
 }
 
-.movie_head{
+.movie_head {
 	font-size: 20px;
 	padding: 6px 22px;
 	border-radius: 10px;
@@ -47,10 +48,15 @@ travel_mainDiv p {
 	display: inline-block;
 }
 
-.movie_head i{
+.movie_head i {
 	float: right;
 }
 
-.movie_text span{
+.movie_text span {
 	color: #ff7700;
+}
+
+.list-group img {
+	width: 500px;
+	height: 300px;
 }
